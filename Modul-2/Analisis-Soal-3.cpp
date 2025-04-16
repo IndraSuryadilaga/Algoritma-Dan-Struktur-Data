@@ -55,7 +55,7 @@ void CETAKLAYAR() {
             cout << Q[i] << " ";
         }
         cout << endl;
-        cout << "Front: " << front << ", Rear: " << rear << endl;
+        cout << "Front: " << F << ", Rear: " << F << endl;
     }
 }
 
