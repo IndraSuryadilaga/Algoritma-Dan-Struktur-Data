@@ -100,8 +100,8 @@ void init() {
 }
 
 int isEmpty() {
-
-  
+  if(head==NULL) return 1;
+  else return 0;
 }
 
 void tambahDepan() {
