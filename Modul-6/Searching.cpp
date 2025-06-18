@@ -135,7 +135,7 @@ int main() {
 
             case 4:
                 cout << "\nTERIMA KASIH\n";
-                cout << "Program was made by Daniel Noprianto(2410817110010)\n";
+                cout << "Program was made by Indra Suryadilaga(2410817310014)\n";
                 break;
 
             default:

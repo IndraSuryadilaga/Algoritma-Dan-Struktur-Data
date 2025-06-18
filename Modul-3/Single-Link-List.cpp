@@ -86,7 +86,7 @@ int main()
       cout<<"\nTERIMA KASIH"<<endl;
       cout<<"Program was made by Indra Suryadilga (2410817310014)."<<endl;
     }
-    
+
     cout<<"\nPress any key to continiue!"<<endl;
     getch();
     system("cls");
@@ -204,7 +204,7 @@ void reset() {
       delete hapus;
     } while(bantu != head);
 
-    init(); 
+    init();
     cout<<"Seluruh elemen pada Linked List telah dibersihkan."<<endl;
   }else cout<<"Tidak terdapat data pada Linked List."<<endl;
 }
@@ -219,7 +219,7 @@ void cariData() {
     bool apaDitemukan = false;
 
     bantu = head;
-    
+
     do {
       if(cari == bantu->data){
         cout<<"Setiap data yang berada di dalam tanda kurung siku([..]) "
@@ -228,9 +228,9 @@ void cariData() {
         bantuTampilkan = head;
 
         do {
-          if(cari == bantuTampilkan->data) 
+          if(cari == bantuTampilkan->data)
             cout<<"["<<bantuTampilkan->data<<"] ";
-          else 
+          else
             cout<<bantuTampilkan->data<<' ';
           bantuTampilkan = bantuTampilkan->next;
         } while(bantuTampilkan != head);
@@ -258,7 +258,7 @@ void hapusData() {
     bool apaDitemukan = false;
 
     bantu = head;
-    
+
     do {
       bantu2 = bantu;
       if(cari == bantu->data){
@@ -326,8 +326,8 @@ void sisipkanSebelum() {
 
       if(bantu == head) {
         head = baru;
-      } 
-      
+      }
+
       cout<<"Data \""<<dataBaru<<"\" berhasil disisipkan sebelum data \""<<nextData<<"\"."<<endl;
     } else {
         cout<<"Tidak terdapat data \""<<nextData<<"\" pada Linked List."<<endl;
@@ -364,7 +364,7 @@ void sisipkanSetelah() {
 
       baru->data = dataBaru;
       baru->next = bantu->next;
-      
+
       bantu->next = baru;
 
       if(bantu == tail) {

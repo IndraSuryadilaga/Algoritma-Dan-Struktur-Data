@@ -214,7 +214,7 @@ int main() {
                 break;
             case 7: 
                 cout << "Terima Kasih" << endl; 
-                cout << "This Program Was Made by Indra Suryadilaga] (2410817310014)" << endl; 
+                cout << "This Program Was Made by Indra Suryadilaga (2410817310014)" << endl; 
                 break;
             default: 
                 cout << "Opsi Tidak Valid. Silahkan Coba Lagi." << endl;
